@@ -13,7 +13,6 @@ axios.interceptors.request.use(config => {
   return config
 })
 Vue.prototype.$http = axios
-vue.config.devtools = true;
 new Vue({
   router,
   render: h => h(App)
